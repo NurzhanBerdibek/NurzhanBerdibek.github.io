@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Verdana,  sans-serif;
+  font-size: 11pt;
+  background-color: 663366;
+}
+h1 {
+  color: #9999ff;
+  font-size: 24pt;
+  font-family: Georgia, Times, serif;
+  font-weight: normal;
+}
+h2 {
+  color: #9999ff;
+  font-size: 22pt;
+  font-weight: normal;
+}
+h3 {
+  color: #9999ff;
+  font-size: 20pt;
+  font-weight: normal;
+}
+h4 {
+  color: #9999ff;
+  font-size: 18pt;
+  font-weight: normal;
+}
+h5 {
+  color: #9999ff;
+  font-size: 16pt;
+  font-weight: normal;
+}
+h6 {
+  color: #9999ff;
+  font-size: 14pt;
+  font-weight: normal;
+}
+p {
+  color: #9999ff;
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+a {
+  color: #3366ff
+}
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+img {
+	background-color: black;
+	border-color: yellow;
+	border-style: dashed;
+	padding: 8px
+}
+embed {
+	background-color: black;
+	border-color: green;
+	border-style: ridge;
+	padding: 8px
+}
+Cursor-style {
+    help { cursor: help; }
+	pointer { cursor: pointer; }
+	text { cursor: text; }
+}
+img:glow {
+  filter: Glow(color=purple, strength=55)
+}
+img:blur{
+  filter: blur(4px);
+}
+img:grayscale{
+  filter: grayscale(45%);
+}
+img:invert{
+  filter: invert(100%);
+}
+img:saturate{
+  filter: saturate(300%);
+}
